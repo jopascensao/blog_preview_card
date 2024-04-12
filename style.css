@@ -1,0 +1,93 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-size: 16px;
+    margin: 150px auto;
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+
+}
+
+h2 {
+    font-weight: 800;
+    margin: 0;
+}
+
+p {
+    font-size: 0.6em;
+    margin: 15px 0;
+}
+
+#card{
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 300px;
+    height: auto;
+    box-shadow: 10px 10px 0;
+}
+
+#article{
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#learn{
+    background-color: hsl(47, 88%, 63%);
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.6em;
+    font-weight: 800;
+}
+
+#info {
+    padding: 20px auto;
+}
+
+#info p {
+    color: hsl(0, 0%, 50%);
+    font-size: 0.8em;
+    padding-bottom: 10px;
+}
+
+#user {
+    display: flex;
+}
+
+#user b {
+    padding: 10px 10px;
+    margin: auto 0;
+}
+
+#avatar {
+    height: 2rem;
+}
+
+@media only screen and (max-width: 450px) {
+    #card {
+      width: 250px;
+    }
+    #info p {
+        font-size: 1em;
+
+    }
+    body {
+        margin-top: 50%;
+    }
+  }
+
+  @media only screen and (max-width: 300px) {
+    #card {
+      width: 200px;
+    }
+    #info p {
+        font-size: 1em;
+    }
+    body {
+        margin-top: 50%;
+    }
+  }
